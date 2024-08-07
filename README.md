@@ -20,7 +20,7 @@ prompt = "A futuristic cityscape"
 result = pipe(prompt=prompt).images[0]
 result.save("generated_image.jpg")
 ```
-![Generated image](generated_image.png)
+![Generated image](generated_image.jpg)
 
 ### Inpainting
 To fill a missing area in an image:
